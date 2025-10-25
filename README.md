@@ -1,40 +1,35 @@
 # 🎓 StudyMate — AI Study Assistant
 
-**StudyMate** — это персональный AI-ассистент для учёбы, созданный на базе **Google Gemini API**.  
-Он помогает студентам и исследователям:
-- ✍️ сокращать тексты и конспекты,  
-- 💬 получать объяснения сложных тем,  
-- 📚 задавать вопросы и учиться через диалог,  
-- 🧠 планировать учёбу и сохранять концентрацию.
+**StudyMate** is a personal AI learning assistant based on the **Google Gemini API**.  
+It helps students and researchers to:
+- shorten texts and summaries,  
+- receive explanations of complex topics,  
+- 📚 Ask questions and learn through dialogue,  
+- Plan your studies and stay focused.
 
----
+## , Demo
 
-## 🌐 Демо
-
-🚀 Онлайн-версия доступна здесь:  
+, The online version is available here:  
 👉 (https://studymateinsar.streamlit.app/)
 
-*(замени ссылку на свою реальную Streamlit ссылку)*
 
----
+## 🧩 Functionality
 
-## 🧩 Функциональность
-
-| Раздел | Описание |
+| Section | Description |
 |:--|:--|
-| 📝 **Summary** | Краткое изложение текста или лекции |
-| ❓ **Questions** | Ответы на любые учебные вопросы |
-| 💬 **Chat Tutor** | Интерактивный AI-репетитор |
-| 🗓️ **Planner** | Помощь в планировании учебного дня |
-| 📤 **Export** | Экспорт заметок и конспектов |
+| 📝 **Summary** | Summary of the text or lecture |
+| ❓ **Questions** | Answers to any learning questions |
+| 💬 **Chat Tutor** | Interactive AI Tutor |
+| 🗓️ **Planner** | Help in planning the school day |
+| 📤 **Export** | Exporting notes and summaries |
 
 ---
 
-## 🛠️ Технологии
+## 🛠️ Technologies
 
 - **Python 3.11+**
-- **Streamlit** — интерфейс
-- **Google Gemini API** — генерация ответов
-- **HTML/CSS** — кастомный фронтенд дизайн
+- **Streamlit** — interface
+- **Google Gemini API** — response generation
+- **HTML/CSS** — custom frontend design
 
 ---
