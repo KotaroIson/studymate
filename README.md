@@ -7,9 +7,9 @@ It helps students and researchers to:
 - 📚 Ask questions and learn through dialogue,  
 - Plan your studies and stay focused.
 
-## , Demo
+## Demo
 
-, The online version is available here:  
+ The online version is available here:  
 👉 (https://studymateinsar.streamlit.app/)
 
 
