@@ -12,7 +12,7 @@ load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # ---------- HEADER ----------
-st.title("🎓 StudyMate — AI Study Assistant")
+st.title("🎓 StudyMate - AI Study Assistant")
 st.caption("Your personal AI-powered learning companion for smarter, faster studying.")
 
 # ---------- DEFINE TABS ----------
@@ -20,8 +20,8 @@ tabs = st.tabs(["📘 Summary", "❓ Questions", "💬 Chat Tutor", "🗓️ Pla
 
 with st.sidebar:
     st.header("About StudyMate")
-    st.write("StudyMate helps students summarize topics, create questions, and learn faster — using Gemini AI.")
-    st.write("Tip: paste a short article or notes (200–800 words) for best results.")
+    st.write("StudyMate helps students summarize topics, create questions, and learn faster - using Gemini AI.")
+    st.write("Tip: paste a short article or notes (200-800 words) for best results.")
     st.markdown("---")
     st.write("🌐 Created by **Insar Bekmukhanbetov**")
     st.write("🔗 [GitHub](https://github.com/kotaroIson) | [LinkedIn](https://www.linkedin.com/in/insar-bekmukhanbetov/)")
@@ -70,7 +70,7 @@ with tabs[1]:
 # ---------- CHAT TUTOR TAB ----------
 with tabs[2]:
     st.header("💬 AI Chat Tutor")
-    st.write("Ask StudyMate anything — from math and science to writing tips.")
+    st.write("Ask StudyMate anything - from math and science to writing tips.")
 
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
@@ -137,3 +137,4 @@ with tabs[4]:
                 content += f"{speaker}: {msg}\n"
 
         st.download_button("Download as TXT", content, file_name="studymate_export.txt")
+
