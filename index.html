@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StudyMate — AI Study Assistant</title>
+  <style>
+    /* --- Base Styles --- */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: "Inter", Arial, sans-serif;
+      background: linear-gradient(135deg, #e0f2fe, #f9fafb);
+      color: #1f2937;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    /* --- Header --- */
+    h1 {
+      font-size: 2.5rem;
+      color: #2563eb;
+      margin-bottom: 1rem;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    /* --- Subtitle --- */
+    p {
+      font-size: 1.1rem;
+      color: #4b5563;
+      max-width: 600px;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    /* --- Button --- */
+    .btn {
+      background-color: #2563eb;
+      color: white;
+      padding: 0.9rem 2rem;
+      border: none;
+      border-radius: 12px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 6px 15px rgba(37, 99, 235, 0.2);
+      animation: fadeIn 1.4s ease-in-out;
+    }
+    .btn:hover {
+      background-color: #1d4ed8;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
+    }
+
+    /* --- Footer --- */
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
+
+    /* --- Animation --- */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* --- Responsive --- */
+    @media (max-width: 600px) {
+      h1 { font-size: 2rem; }
+      p { font-size: 1rem; }
+      .btn { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <h1>🎓 Welcome to StudyMate</h1>
+  <p>
+    Your all-in-one AI study companion — summarize texts, generate practice questions,
+    chat with an intelligent tutor, and organize your learning effortlessly.
+  </p>
+  <button class="btn" onclick="window.location.href='http://localhost:8501';">
+    🚀 Launch StudyMate App
+  </button>
+  <footer>
+    © 2025 StudyMate. Built with ❤️ using Gemini AI.
+  </footer>
+</body>
+</html>
